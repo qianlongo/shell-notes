@@ -11,10 +11,13 @@
 # echo ${str}
 
 # 提取长度
-# name='qianlongo'
-# len=${#name}
+name='qianlongo'
+len=${#name}
+# len=(expr length $name)
 # echo $len
 # echo ${name:0:len-1}
-# 查找子字符串
-name="runoob is a great company"
-echo "expr index $name is"  # 输出 8
+echo $len
+
+# 查找子字符串 ,该例子有问题
+# name="runoob is a great company"
+# echo "expr index $name is"  # 输出 8
